@@ -1,0 +1,21 @@
+.todo{
+    background-color: beige;
+    color: black;
+}
+
+.todo-ul {
+    list-style: none;
+    padding: 0.5rem 1.5rem;
+}
+.todo-ul-li {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
